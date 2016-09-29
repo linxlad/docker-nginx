@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM linxlad/docker-debian8
+FROM linxlad/debian8
 
 MAINTAINER Nathan Daly <nathand@openobjects.com>
 
