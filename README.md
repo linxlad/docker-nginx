@@ -2,7 +2,7 @@
 
 ## Build image
 
-    docker build -t drupal8/nginx .
+    docker build -t nginx .
 
 ## Usage
 
@@ -12,4 +12,4 @@
         -v <CONF_DIR>:/etc/nginx/conf.d /
         -v <LOGS_DIR>:/var/log/nginx /
         -v <APP_DIR>:/var/www/html /
-        drupal8/nginx
+        nginx

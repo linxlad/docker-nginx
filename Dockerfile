@@ -28,7 +28,7 @@ ADD ./nginx.conf /etc/nginx/sites-available/default.conf
 RUN ln -s /etc/nginx/sites-available/default.conf /etc/nginx/sites-enabled/default.conf
 
 # Create user to run as, since you can't change permissions on a mounted folder
-RUN useradd -d /srv/http -g staff -u 1000 -r web
+RUN useradd -d /var/www/html -g staff -u 1000 -r web
 
 # Define mountable directories.
 VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/var/log/nginx", "/var/www/html"]
