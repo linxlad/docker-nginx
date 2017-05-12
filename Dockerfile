@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM linxlad/debian8
+FROM linxlad/debian9
 
 MAINTAINER Nathan Daly <nathand@openobjects.com>
 
